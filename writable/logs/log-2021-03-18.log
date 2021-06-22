@@ -1,0 +1,277 @@
+CRITICAL - 2021-03-18 00:03:53 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Debug\Toolbar.php(456): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Debug\Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\CodeIgniter\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-18 00:08:18 --> Call to undefined function App\Controllers\verify_password()
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-18 01:05:59 --> Call to undefined function App\Controllers\verifyHash()
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-18 01:12:28 --> syntax error, unexpected '$password' (T_VARIABLE), expecting ']'
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('login')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('login')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 01:53:35 --> authstart filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authstart')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('authstart', 'before')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-18 01:54:10 --> Cannot declare class App\Filters\Auth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-18 02:33:34 --> Undefined variable: table
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:33:52 --> Call to a member function where() on string
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:34:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:39:38 --> Undefined variable: db
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:39:59 --> Undefined variable: db
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:44:08 --> Undefined variable: table
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:49:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:52:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:52:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:54:41 --> Undefined variable: table
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:54:59 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(17): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-18 02:55:11 --> Undefined variable: table
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:55:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:57:11 --> Undefined variable: db
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 02:57:31 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(17): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-18 02:58:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:58:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:58:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 02:59:49 --> Undefined variable: table
+#0 C:\xampp\htdocs\CodeIgniter\app\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Controllers\Login.php(20): App\Models\UserModel->SingleUserData('tech@gmail.com')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-18 03:00:36 --> Call to undefined function App\Controllers\UserModel()
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-18 03:00:51 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('login/auth')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('login/auth')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 03:00:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('login/auth')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('login/auth')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 03:00:55 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-18 03:00:57 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-18 04:04:51 --> Undefined variable: session
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Dashboard.php(11): view('dashboard')
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 05:16:52 --> Cannot declare class App\Controllers\Login, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-18 05:42:06 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-18 05:42:32 --> Undefined variable: email
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 05:42:47 --> Undefined variable: data
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\app\Controllers\Dashboard.php(16): view('dashboard', Array)
+#5 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 05:58:59 --> Undefined variable: user_age
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 05:59:31 --> Use of undefined constant user_age - assumed 'user_age' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
